@@ -3,7 +3,6 @@
 int number =10;
 int data[10] = {1,10,5,8,7,6,4,3,2,9};
 
-
 void quickSort(int*data,int start, int end){
 	if(start >= end){ // 원소가 1개인 경우 
 		return ;	
@@ -46,7 +45,6 @@ int main(void){
 //	3,7,8,1,5,9,6,10,2,4
 //  3,2,8,1,5,9,6,10,7,4
 //  3,2,1,8,5,9,6,10,7,4
-
 
 	return 0;
 }
