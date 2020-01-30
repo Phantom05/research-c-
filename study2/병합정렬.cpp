@@ -37,7 +37,6 @@ void merge(int a[], int m, int middle, int n){
 	}
 }
 
-
 void mergeSort(int a[],int m, int n){
 	// 크기가 1보다 큰 경우
 	if(m <n){
@@ -49,7 +48,7 @@ void mergeSort(int a[],int m, int n){
 }
 
 int main(void){
-	int array[number] = {7,6,5,8,3,5,9,1};
+	int array[number] = {4,2,6,3,7,8,5,1};
 	mergeSort(array,0,number - 1);
 	for(int i =0; i < number; i++){
 		printf("%d ",array[i]);
