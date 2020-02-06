@@ -15,7 +15,7 @@ void merge(int a[], int m, int middle, int n){
 			sorted[k] = a[i];
 			i++;
 		}else{
-			sorted[k] = a[j];
+			sorted[k] = a[j]; 
 			j++;
 		}
 		k++;
@@ -24,7 +24,7 @@ void merge(int a[], int m, int middle, int n){
 	// 남은 데이터도 삽입.
 	if(i > middle){
 		for(int t = j; t<= n; t++){
-			sorted[k] = a[t];
+			sorted[k] = a[t];   
 			k++;
 		}
 	}else{
